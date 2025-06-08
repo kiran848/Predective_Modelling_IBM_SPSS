@@ -1,71 +1,100 @@
-🎯 Predictive Modelling of Lung Cancer using IBM SPSS
-This project aims to build a predictive model to identify potential lung cancer patients based on health and behavioral attributes. Using IBM SPSS, we apply data preprocessing, visualization, and classification techniques to gain insights and build an effective model for lung cancer prediction.
+# 🧠 Predictive Modelling of Lung Cancer Using IBM SPSS
 
-📂 Dataset Description
-Total Instances: 284
+This project aims to predict the likelihood of lung cancer in individuals based on various medical and lifestyle features. Using **IBM SPSS Statistics**, we performed data cleaning, exploratory data analysis, and predictive modeling to support early detection of lung cancer.
 
-Attributes: 16
+---
 
-Target Variable: Lung Cancer Diagnosis (YES/NO)
+## 📁 Dataset Overview
 
-🧬 Attributes:
-Feature	Description
-Age	Age of the patient
-Gender	Male / Female
-Smoking	0 - No, 1 - Yes
-Yellow Fingers	Yellowing of fingers (smoking signs)
-Anxiety	0 - No, 1 - Yes
-Peer Pressure	0 - No, 1 - Yes
-Chronic Disease	0 - No, 1 - Yes
-Fatigue	0 - No, 1 - Yes
-Allergy	0 - No, 1 - Yes
-Wheezing	0 - No, 1 - Yes
-Alcohol Consumption	0 - No, 1 - Yes
-Coughing	0 - No, 1 - Yes
-Shortness of Breath	0 - No, 1 - Yes
-Swallowing Difficulty	0 - No, 1 - Yes
-Chest Pain	0 - No, 1 - Yes
-Lung Cancer	Target variable (YES / NO)
+- **Total Records**: 284  
+- **Attributes**: 16 (including target)
+- **Target Variable**: `LUNG_CANCER` (YES/NO)
 
-🔍 Objectives
-Preprocess and clean the dataset.
+### 🔶 Features:
 
-Perform exploratory data analysis (EDA) to understand correlations and patterns.
+| Feature               | Description                           |
+|-----------------------|---------------------------------------|
+| AGE                   | Age of the patient                    |
+| GENDER                | Male / Female                         |
+| SMOKING               | 1 = Yes, 0 = No                       |
+| YELLOW_FINGERS        | Smoking symptom (Yes/No)              |
+| ANXIETY               | Presence of anxiety                   |
+| PEER_PRESSURE         | Peer influence towards smoking        |
+| CHRONIC DISEASE       | Long-term illnesses                   |
+| FATIGUE               | Feeling of tiredness                  |
+| ALLERGY               | Presence of allergies                 |
+| WHEEZING              | Shortness of breath while exhaling    |
+| ALCOHOL CONSUMING     | Alcohol consumption habit             |
+| COUGHING              | Persistent cough                      |
+| SHORTNESS OF BREATH   | Difficulty in breathing               |
+| SWALLOWING DIFFICULTY | Problems swallowing food              |
+| CHEST PAIN            | Chest pain symptoms                   |
+| LUNG_CANCER           | Target label (YES / NO)               |
 
-Build and evaluate classification models using IBM SPSS.
+---
 
-Identify key indicators associated with lung cancer.
+## 🎯 Project Goals
 
-⚙️ Techniques Used in IBM SPSS
-Data Visualization (Bar Charts, Pie Charts, Correlation Matrix)
+- Clean and preprocess health survey data.
+- Perform statistical and visual exploration.
+- Build predictive models using:
+  - Decision Trees (CHAID, CART)
+  - Logistic Regression
+- Evaluate models based on:
+  - Accuracy
+  - Confusion Matrix
+  - ROC Curve / AUC
+- Identify key features contributing to lung cancer prediction.
 
-Descriptive Statistics (Frequencies, Mean, Mode)
+---
 
-Crosstabs and Chi-square tests for association
+## ⚙️ Tools Used
 
-Classification Models:
+- **IBM SPSS Statistics**
+  - Frequencies, Crosstabs
+  - Descriptive Statistics
+  - Classification Models
+  - ROC Analysis
+- **Excel** (for minor cleaning and formatting)
 
-Decision Trees (CART, CHAID)
+---
 
-Logistic Regression
+## 📊 Sample Visuals
 
-Neural Networks (optional)
+<p align="center">
+  <img src="screenshots/correlation_matrix.png" width="500"/>
+  <img src="screenshots/decision_tree.png" width="500"/>
+  <img src="screenshots/roc_curve.png" width="500"/>
+</p>
 
-Model Evaluation:
+---
 
-Accuracy
+## 📝 Results
 
-Confusion Matrix
+- **Best Model**: Decision Tree (CHAID)
+- **Accuracy**: ~93%
+- **Top Predictors**:
+  - SMOKING
+  - YELLOW_FINGERS
+  - COUGHING
+  - SHORTNESS OF BREATH
+  - CHEST PAIN
 
-ROC Curve & AUC
+These features showed the strongest association with the target class (`LUNG_CANCER`).
 
-📊 Sample Visualizations
-Correlation heatmap of symptoms
+---
 
-ROC curve for logistic regression
+## 📌 Conclusion
 
-Feature importance from decision tree
+This project demonstrates the application of IBM SPSS in health data analytics and predictive modeling. Through visual and statistical methods, we derived meaningful patterns to support early detection of lung cancer, potentially aiding healthcare professionals in decision-making.
 
-📑 Conclusion
-This project showcases how IBM SPSS can be effectively used for healthcare analytics and early detection of critical diseases such as lung cancer. By identifying influential features and evaluating models, this work can support medical professionals in making data-driven decisions.
+---
 
+
+## 🙋‍♀️ Contributors
+
+- Kiran N  
+- Diksha Khangarot
+- Anjali Sharma
+
+---
