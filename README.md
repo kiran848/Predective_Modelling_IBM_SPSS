@@ -83,6 +83,17 @@ This project aims to predict the likelihood of lung cancer in individuals based 
 These features showed the strongest association with the target class (`LUNG_CANCER`).
 
 ---
+## 📝 Project flow
+graph TD
+    A[Data Collection] --> B[Data Import into SPSS (.csv/.sav)]
+    B --> C[Data Cleaning & Preprocessing]
+    C --> D[Exploratory Data Analysis (EDA)]
+    D --> E[Feature Selection & Hypothesis Testing]
+    E --> F[Model Building in SPSS]
+    F --> G[Model Evaluation & Validation]
+    G --> H[Result Interpretation & Insights]
+    H --> I[Documentation & Reporting]
+
 
 ## 📌 Conclusion
 
