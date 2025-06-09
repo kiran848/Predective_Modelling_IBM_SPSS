@@ -85,15 +85,15 @@ These features showed the strongest association with the target class (`LUNG_CAN
 ---
 ## 📝 Project flow
 
-graph TD
-    -A[Data Collection] --> B[Data Import into SPSS (.csv/.sav)]
-    -B --> C[Data Cleaning & Preprocessing]
-    -C --> D[Exploratory Data Analysis (EDA)]
-    -D --> E[Feature Selection & Hypothesis Testing]
-    -E --> F[Model Building in SPSS]
-    -F --> G[Model Evaluation & Validation]
-    -G --> H[Result Interpretation & Insights]
-    -H --> I[Documentation & Reporting]
+ # Graph TD
+    - A[Data Collection] --> B[Data Import into SPSS (.csv/.sav)]
+    - B --> C[Data Cleaning & Preprocessing]
+    - C --> D[Exploratory Data Analysis (EDA)]
+    - D --> E[Feature Selection & Hypothesis Testing]
+    - E --> F[Model Building in SPSS]
+    - F --> G[Model Evaluation & Validation]
+    - G --> H[Result Interpretation & Insights]
+    - H --> I[Documentation & Reporting]
     
 ---
 
