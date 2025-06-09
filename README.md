@@ -84,6 +84,7 @@ These features showed the strongest association with the target class (`LUNG_CAN
 
 ---
 ## 📝 Project flow
+
 graph TD
     A[Data Collection] --> B[Data Import into SPSS (.csv/.sav)]
     B --> C[Data Cleaning & Preprocessing]
@@ -93,7 +94,8 @@ graph TD
     F --> G[Model Evaluation & Validation]
     G --> H[Result Interpretation & Insights]
     H --> I[Documentation & Reporting]
-
+    
+---
 
 ## 📌 Conclusion
 
@@ -104,7 +106,7 @@ This project demonstrates the application of IBM SPSS in health data analytics a
 
 ## 🙋‍♀️ Contributors
 
-- Kiran N  
+- Kiran   
 - Diksha Khangarot
 - Anjali Sharma
 
